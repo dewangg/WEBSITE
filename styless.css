@@ -1,0 +1,64 @@
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  /* Full width */
+}
+
+
+
+
+
+body {
+  background-color: whitesmoke;
+  /*font-family:"typeW";*/
+}
+
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.img-col {
+  flex: 100%;
+  padding: 4px 4px;
+  
+}
+
+.img-col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  /* height: 250px; */
+  width: 90%;
+  padding-top: 50px;
+}
+
+.image-section {
+  margin-left: 20%;
+  overflow: auto;
+  max-height: 200vh;
+}
+
+.collection-col {
+  margin-top: 50px;
+  position: fixed;
+}
+
+.collection-col h3 {
+  padding: 10px 10px;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  /* font smaller + not bold + hover black*/
+  /* on hover undeline, a bit to side after clicck and show it underlimed with it as main colmn afte thst */
+}
+
+.col1 {
+  padding-left: 125px;
+}
+
+/* for phone sizes make width of navbar 100* and go und=er the name */
